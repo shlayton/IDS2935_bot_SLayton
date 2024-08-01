@@ -4,45 +4,4 @@
     <pattern>*</pattern>
     <template>I have no answer for that.</template>
   </category>
-    <category>
-        <pattern>Hello</pattern>
-        <template>Hello what is your name</template>
-    </category>
-    <category>
-        <pattern>My name is *</pattern>
-        <template> Hey <set name = "username"><star/></set>, what can I help you with today?</template>
-    </category>
-    <category>
-        <pattern>How are you feeling today</pattern>
-        <template>
-            <random>
-                <li>Good</li>
-                <li>Alright</li>
-                <li>eh</li>
-                <li>Bad</li>
-            </random>
-        </template>
-    </category>
-    <category>
-        <pattern>How many quizzes are there</pattern>
-        <template>There are 4 quizes in this class</template>
-    </category>
-    <category>
-        <pattern>How do I get a good grade in this class</pattern>
-        <template>
-            <random>
-                <li>You can reach out to a TA and go to office hours</li>
-                <li>You can review the lectures and readings</li>
-                <li>Plan ahead and use a calander to carve out a good amount of time for this class</li>
-            </random>
-        </template>
-    </category>
-    <category>
-            <pattern>how many extra points</pattern>
-            <template>a max of 25 extra points</template>
-    </category>
-    <category>
-        <pattern>Good bye</pattern>
-        <template>See you later <get name="username"><star/></get></template>
-    </category>
 </aiml>
